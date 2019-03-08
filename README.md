@@ -13,4 +13,20 @@ The backend is written with Express as a server, with Sequelize for modeling and
 for quickly creating a REST API without a lot of boilerplate.
 
 PKG is a command line tool simplifies the build process of the server app. 
+
+ ####Installation
+```java
+npm install yarn
+yarn add @material-ui/core@1.4.3
+yarn add @okta/okta-react react-router-dom @material-ui/icons
+yarn add @okta/jwt-verifier body-parser cors dotenv epilogue express sequelize mysql2
+yarn add -D npm-run-all@4.1.3
+npm install @okta/jwt-verifier body-parser cors dotenv epilogue express sequelize mysql2 --save
+```
+
+###Packaging
+```
+npm i pkg -g
+
 sudo chmod a+x tshirt_shop-linux
+```

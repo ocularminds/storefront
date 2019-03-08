@@ -1,0 +1,31 @@
+
+folders
+api/admin
+api/shop
+
+admin exposes
+   /attributes
+   /attributes/:attributeId
+   /category
+   /category/:Id
+   /department
+   /department/:departmentId
+   /login
+   /products
+   /products/:productId
+   /product/:productId/photoId
+
+shop exposes
+   /cart/add
+   /cart/:cartId/remove
+   /cart/:cartId/update
+   /cart/:cartId/summary
+   /checkout
+   /color
+   /department/category
+   /paging
+   /product/:productId
+   /products
+   /products/sessionId
+   /search
+   
